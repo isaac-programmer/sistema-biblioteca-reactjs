@@ -1,0 +1,32 @@
+div#root {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    // border: 1px solid black;
+
+    main, header, nav, footer, aside {
+        border: 1px solid black;
+    }
+
+    header {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        text-align: center;
+    }
+
+    aside {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    main {
+        grid-column-start: 4;
+        grid-column-end: -1;
+        text-align: center;
+    }
+
+    footer {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        text-align: center;
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "name": "Livro 01",
+      "autor": "Autor 01",
+      "data": "2011-11-03",
+      "uf_address": "CE",
+      "avatarPath": ""
+    }
+  ]
+}
